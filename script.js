@@ -48,7 +48,6 @@ async function getQuotes() {
     apiQuotes = await response.json();
     newQuote();
 } catch (error) {
-// catch error here 
   }
 }
 // tweet a quute 
